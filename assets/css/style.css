@@ -234,8 +234,8 @@ footer {
 		margin-top:0 0 20px;
 		overflow:auto;
 	}
-	.top{
-		max-width:100%;
+	.crux, .top{
+		max-width:90%;
 	}
 	article{
 		overflow:auto;
