@@ -198,6 +198,26 @@ footer {
 }
 
 /* ---------------------Media Query--------------------- */
+@media screen and (max-width: 980px){
+	.headwrap, .container{
+		width:100%;
+	}	
+	header.nav{
+		position:fixed;
+		z-index:99;
+		width:100%;
+		margin-top:0 0 20px;
+		overflow:auto;
+	}
+	.crux, .top{
+		max-width:90%;
+	}
+	article{
+		overflow:auto;
+		margin: 0 20px;		
+	}	
+}
+
 @media screen and (max-width: 768px){
 	
 	header, .crux, .headwrap, header.container{
@@ -221,26 +241,6 @@ footer {
 	.top{
 		max-width: 100%
 	}
-}
-
-@media screen and (max-width: 980px){
-	.headwrap, .container{
-		width:100%;
-	}	
-	header.nav{
-		position:fixed;
-		z-index:99;
-		width:100%;
-		margin-top:0 0 20px;
-		overflow:auto;
-	}
-	.crux, .top{
-		max-width:90%;
-	}
-	article{
-		overflow:auto;
-		margin: 0 20px;		
-	}	
 }
 
 @media only screen and (max-width: 640px){
